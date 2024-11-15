@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/faezzy4/OOP_3_KPFU/OOP_3/Vector3d.cpp" "CMakeFiles/OOP_3.dir/Vector3d.cpp.o" "gcc" "CMakeFiles/OOP_3.dir/Vector3d.cpp.o.d"
   "/home/faezzy4/OOP_3_KPFU/OOP_3/main.cpp" "CMakeFiles/OOP_3.dir/main.cpp.o" "gcc" "CMakeFiles/OOP_3.dir/main.cpp.o.d"
   )
 

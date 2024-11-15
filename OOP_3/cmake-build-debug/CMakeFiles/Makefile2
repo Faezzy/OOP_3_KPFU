@@ -81,12 +81,12 @@ clean: CMakeFiles/OOP_3.dir/clean
 CMakeFiles/OOP_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_3.dir/build.make CMakeFiles/OOP_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_3.dir/build.make CMakeFiles/OOP_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/faezzy4/OOP_3_KPFU/OOP_3/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target OOP_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/faezzy4/OOP_3_KPFU/OOP_3/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target OOP_3"
 .PHONY : CMakeFiles/OOP_3.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/OOP_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/faezzy4/OOP_3_KPFU/OOP_3/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/faezzy4/OOP_3_KPFU/OOP_3/cmake-build-debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/OOP_3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/faezzy4/OOP_3_KPFU/OOP_3/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/OOP_3.dir/rule

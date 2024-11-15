@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 #include "Vector3d.h"
 using namespace std;

@@ -129,6 +129,30 @@ OOP_3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_3.dir/build.make CMakeFiles/OOP_3.dir/build
 .PHONY : OOP_3/fast
 
+Vector3d.o: Vector3d.cpp.o
+.PHONY : Vector3d.o
+
+# target to build an object file
+Vector3d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_3.dir/build.make CMakeFiles/OOP_3.dir/Vector3d.cpp.o
+.PHONY : Vector3d.cpp.o
+
+Vector3d.i: Vector3d.cpp.i
+.PHONY : Vector3d.i
+
+# target to preprocess a source file
+Vector3d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_3.dir/build.make CMakeFiles/OOP_3.dir/Vector3d.cpp.i
+.PHONY : Vector3d.cpp.i
+
+Vector3d.s: Vector3d.cpp.s
+.PHONY : Vector3d.s
+
+# target to generate assembly for a file
+Vector3d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_3.dir/build.make CMakeFiles/OOP_3.dir/Vector3d.cpp.s
+.PHONY : Vector3d.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... OOP_3"
+	@echo "... Vector3d.o"
+	@echo "... Vector3d.i"
+	@echo "... Vector3d.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
