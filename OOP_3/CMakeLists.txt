@@ -3,4 +3,5 @@ project(OOP_3)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(OOP_3 main.cpp)
+add_executable(OOP_3 main.cpp
+        Vector3d.h)
